@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { verify } from 'hcaptcha';
 import SMTPTransport from 'nodemailer/lib/smtp-transport';
 
-const secret = process.env.NEXT_PUBLIC_HCAPTCHA_SECRET!;
+const secret = process.env.HCAPTCHA_SECRET!;
 
 const transporter = nodemailer.createTransport({
     host: process.env.NEXT_PUBLIC_SMTP_SERVER,
@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
         // Your domain's email account
         user: process.env.NEXT_PUBLIC_USER,
         // The password for your domain's email account
-        pass: process.env.NEXT_PUBLIC_PWD, 
+        pass: process.env.SMTP_PWD, 
     },
 } as SMTPTransport.Options);
 
