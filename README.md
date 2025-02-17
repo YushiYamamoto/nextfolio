@@ -16,12 +16,12 @@ https://www.hcaptcha.com
 - enter the email (RECIPIENT) to which the messages should be send (can be a public email like protonmail)
 - Please note: for deployment on vercel you have to enter the env variables in their dashboard
 ```
-NEXT_PUBLIC_HCAPTCHA_SECRET=
+HCAPTCHA_SECRET=
 NEXT_PUBLIC_HCAPTCHA_SITEKEY=
 NEXT_PUBLIC_SMTP_SERVER=
 NEXT_PUBLIC_SMTP_PORT=
 NEXT_PUBLIC_USER=
-NEXT_PUBLIC_PWD=
+SMTP_PWD=
 NEXT_PUBLIC_RECIPIENT=
 ```
 
