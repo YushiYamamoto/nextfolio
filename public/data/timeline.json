@@ -1,37 +1,37 @@
 [
     {
-      "title": "Software Engineer",
-      "company": "19bytes",
-      "tasks": "Building a responsive dashboard for an AI-powered application for handling project proposals",
-      "tags": ["React.js", "Typescript", "Vite/Vitest", "React Testing Library", "Material UI"],
+      "title": "業務委託エンジニア",
+      "company": "ファストドクター株式会社",
+      "tasks": "医療現場のデジタル改革に取り組むとともに、システムの信頼性とユーザー体験の向上に大きく寄与しました。",
+      "tags": ["Next.js", "Typescript", "Retool", "Redash", "Heroku"],
+      "year": 2025
+    },
+    {
+      "title": "業務委託エンジニア",
+      "company": "株式会社AIBOT",
+      "tasks": "先端技術を用い、クライアントのDX推進やWEBサービスの品質向上に貢献。柔軟な働き方と高い技術力で、効率的なシステム開発とユーザー体験の最適化を実現しました。",
+      "tags": ["Vue.js", "Typescript", "Tailwind CSS", "Vitepress", "Laravel"],
       "year": 2024
     },
     {
-      "title": "Work & Travel",
-      "company": "Australia",
-      "tasks": "Engaged in a transformative journey through Australia, combining work opportunities with self-directed education, fostering personal and professional growth",
-      "tags": ["Next.js", "Typescript", "Tailwind CSS", "Jest", "Padi Open Water Diver"],
+      "title": "動画クリエイター",
+      "company": "株式会社F学",
+      "tasks": "映像制作により、ブランドのメッセージを効果的に伝えるクリエイティブなコンテンツを制作し、視覚表現の革新を図りました。",
+      "tags": ["Final cut pro", "Photoshop", "Illustrator", "Canva", "AI"],
+      "year": 2023
+    },
+    {
+      "title": "CEO",
+      "company": "株式会社プロドウガ",
+      "tasks": "最新の技術を活用しながら、革新的なサービスの立ち上げや組織のデジタルトランスフォーメーションに取り組み、経営と技術の両面から事業の成長を実現しました。",
+      "tags": ["Nuxt.js", "SQL", "Astro", "Docker", "GAS"],
       "year": 2022
     },
     {
-      "title": "Frontend Developer",
-      "company": "Vivents Interactive",
-      "tasks": "Rebuilt a chat-system for an online plattform, enhancing the user experience and significantly increased the end user satisfaction",
-      "tags": ["React.js", "Typescript", "Redux", "GraphQL", "Jest"],
+      "title": "WEB制作エンジニア",
+      "company": "フリーランス",
+      "tasks": "基本的なWEB技術を駆使し、ユーザー視点に立ったサイト構築とクライアントのニーズに応えるデジタルソリューションの提供に注力しました。",
+      "tags": ["HTML", "CSS", "JavaScript", "Visual Studio Code"],
       "year": 2021
-    },
-    {
-      "title": "Software Developer",
-      "company": "German Cancer Research Center",
-      "tasks": "Integrated APIs and databases for a medical application used by doctors and bioinformaticians to plan molecular therapies",
-      "tags": ["Java EE", "SQL", "REST", "JDBC"],
-      "year": 2019
-    },
-    {
-      "title": "Intern & Student Assistant",
-      "company": "Edataconsulting",
-      "tasks": "Developed an AR application which has been used on fairs and exhibitions to promote and showcase the company interactively",
-      "tags": ["Unity", "C#", "Blender", "Microsoft Hololens"],
-      "year": 2017
     }
 ]  

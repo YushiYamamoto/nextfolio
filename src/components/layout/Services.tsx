@@ -5,13 +5,13 @@ export default function Services() {
   return (<div id="Services" className="flex h-fit text-white flex-col items-center bg-slate-800">
 
     <img className="w-full h-44" src="/transitions/transition_gradient.svg" alt="transition" />
-    <p className="text-4xl mb-8 mt-8  text-white font-bold">Services</p>
+    <p className="text-4xl mb-8 mt-8  text-white font-bold">サービス</p>
     <div className="flex desktop:flex-row mobile:flex-col flex-wrap mobile:items-center pb-8 justify-center text-center h-full">
-      <Service hl="Single Page Applications" desc="Development of responsive web apps such as portfolios, landingpages and dashboards" img="/icons/SPA_Icon.svg" />
-      <Service hl="API Integration" desc="Seamless integration into your solution for dynamic content delivery" img="/icons/API_Icon.svg" />
-      <Service hl="SEO Optimization" desc="Enhancing visibility and rankings of your web application" img="/icons/SEO_Icon.svg" />
+      <Service hl="シングルページアプリケーション" desc="ポートフォリオ、ランディングページ、ダッシュボードなどのレスポンシブWebアプリの開発" img="/icons/SPA_Icon.svg" />
+      <Service hl="API連携" desc="ダイナミックなコンテンツ配信のためのシームレスな統合" img="/icons/API_Icon.svg" />
+      <Service hl="SEO最適化" desc="Webアプリの視認性と検索順位を向上" img="/icons/SEO_Icon.svg" />
     </div>
-    <p className="desktop:text-[40px] mobile:text-[24px] font-bold my-4 text-center">You have a project? Get in Touch</p>
-    <ContactBtn title={"Contact Me"} />
+    <p className="desktop:text-[40px] mobile:text-[24px] font-bold my-4 text-center">お気軽にご連絡ください</p>
+    <ContactBtn title={"お問い合わせ"} />
   </div>);
 }

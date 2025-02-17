@@ -3,7 +3,7 @@ import { GlobalStateProvider } from "src/contexts/GlobalStateContext"
 
 export const metadata: Metadata = {
     title: 'FullstackLab.net | Dennis-Immanuel Czogalla - Fullstack Developer',
-    description: "I'm a fullstack developer specialized in React.js, Next.js and Typescript who builds innovative web applications for desktop and mobile devices.",
+    description: "デザイン、プログラミング、マーケティング、そしてAI技術まで、多岐にわたる分野で活動しているマルチプレイヤー型クリエイターです。これまでのキャリアを通じて、**「エンジニア」「マーケター」「デザイナー」「プロデューサー」**として、それぞれの視点から価値を生み出すことに挑戦してきました。",
 }
 
 export default function RootLayout({

@@ -6,13 +6,13 @@ export default function Typing() {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Next.js',
+        'デザイナー',
         500,
-        'Typescript',
+        'マーケター',
         500,
-        'Tailwind CSS',
+        'クリエイター',
         500,
-        'React.js',
+        'エンジニア',
         500
       ]}
       wrapper="span"

@@ -29,7 +29,7 @@ export default function SubmitButton({ loading }: { loading: boolean }) {
             </svg>
             Loading...
         </div>
-        ) : <>Send message</>
+        ) : <>送信</>
         }
     </button>
 }

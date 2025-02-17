@@ -6,6 +6,6 @@ export default function Menu() {
         <MenuItem title={"Services"} />
         <MenuItem title={"Work"} />
         <MenuItem title={"About"} />
-        <ContactBtn title={"Contact Me"} />
+        <ContactBtn title={"お問い合わせ"} />
     </>);
 }

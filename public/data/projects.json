@@ -1,58 +1,58 @@
 [
     {
-    "title": "Fruitinator.org",
-    "image": "/images/MobileView.webp",
-    "link": "https://www.fruitinator.org",
-    "tags": ["React.js", "Javascript", "MobX", "SASS"],
-    "text": "A responsive e-commerce frontend for exotic fruit shopping on desktop and mobile"
+        "title": "企業サイト制作",
+        "image": "/images/1.webp",
+        "link": "https://www.prodouga.com",
+        "tags": ["Astro", "TypeScript",  "GitHub", "Styled Components", "Vercel"],
+        "text": "企業のブランドイメージを向上させるためのウェブサイトを制作。デザインだけでなく、ユーザビリティにも考慮しました。"
     },
     {
-    "title": "Fullstacklab.net",
-    "image": "/images/PortfolioPage.webp",
-    "link": "https://www.fullstacklab.net",
-    "tags": ["Next.js", "Typescript", "Tailwind CSS"],
-    "text": "A single-page application with responsive design that highlights professional work and services"
+        "title": "システムのマニュアルサイト構築",
+        "image": "/images/2.webp",
+        "link": "https://qiita.com/YushiYamamoto/items/738f552522c98181cd60",
+        "tags": ["Vue.js", "Vitepress", "TypeScript", "Tailwind CSS", "Docker"],
+        "text": "LINE集客システムのマニュアルサイトを構築。ユーザーが簡単に情報を検索できるように設計しました。"
     },
     {
-    "title": "Monomind.info",
-    "image": "/images/Monomind.webp",
-    "link": "https://www.monomind.info",
-    "tags": ["React.js", "Typescript", "Web Audio API", "CSS"],
-    "text": "A monophonic synthesizer to play and record synth bass lines from the 80s"
+        "title": "プログラミング教室サイト制作",
+        "image": "/images/3.webp",
+        "link": "https://qiita.com/YushiYamamoto/items/738f552522c98181cd60",
+        "tags": ["React.js", "TypeScript", "Web Audio API", "Chakra UI"],
+        "text": "プログラミング教室のウェブサイトを制作。教材管理、予約機能、スマホ対応レスポンシブデザインを実装しました。"
     },
     {
-    "title": "Taskify",
-    "image": "/images/Taskify.webp",
-    "link": "https://github.com/denczo/taskify",
-    "tags": ["React.js", "Typescript", "CSS", "REST", "Express.js"],
-    "text": "A project management tool to administer and keep track of ongoing tasks"
+        "title": "ヘルスケア関連WebアプリのUI/UX改善",
+        "image": "/images/4.webp",
+        "link": "https://qiita.com/YushiYamamoto/items/738f552522c98181cd60",
+        "tags": ["Nuxt.js", "TypeScript", "REST API", "Node.js", "Express.js"],
+        "text": "ヘルスケア関連のウェブアプリケーションのUI/UX改善を行いました。ユーザーにとって使いやすいインターフェースを設計しました。"
     },
     {
-    "title": "FREM",
-    "image": "/images/KivyDesktop.webp",
-    "link": "https://github.com/denczo/FREM",
-    "tags": ["Python", "Kivy", "Android", "Buildozer"],
-    "text": "An android app to explain and demonstrate the concepts of frequency modulation for dsp"
+        "title": "Next.jsを活用したブログサイト制作",
+        "image": "/images/nextjs.webp",
+        "link": "https://codepen.io/yamamotoyushi/pen/LYqbwmx",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Contentful", "GraphQL"],
+        "text": "Next.jsを使用して、静的サイト生成（SSG）を活用したブログサイトを制作。TypeScriptとTailwind CSSを使用し、開発効率を向上。"
     },
     {
-    "title": "Raspberry Bot",
-    "image": "/images/RaspberryBot.webp",
-    "link": "https://github.com/denczo/RaspberryBot",
-    "tags": ["Python", "ML", "Raspberry Pi", "Tkinter"],
-    "text": "A self-learning robot that uses q-learning, a type of Machine Learning, to follow the line"
+        "title": "インタラクティブなアニメーションサイト制作",
+        "image": "/images/animation.webp",
+        "link": "https://codepen.io/yamamotoyushi/pen/LYqbwmx",
+        "tags": ["GSAP", "HTML5", "CSS3", "JavaScript", "ScrollTrigger"],
+        "text": "GSAPを使用してインタラクティブなアニメーションを実装。スクロールに応じてエレメントが動き、ページ全体が動的に変化する体験を提供。"
     },
     {
-    "title": "PyBlaster",
-    "image": "/images/PyBlaster.webp",
-    "link": "https://github.com/denczo/pyblaster",
-    "tags": ["Python", "PyAudio", "Tkinter", "RtMidi"],
-    "text": "A monophonic synthesizer built with Python that can be played with a Midi keyboard"
+        "title": "レストラン向けWordPressサイト制作",
+        "image": "/images/restrant.webp",
+        "link": "https://codepen.io/yamamotoyushi/pen/LYqbwmx",
+        "tags": ["WordPress", "PHP", "Booking System", "SEO", "Responsive Design"],
+        "text": "SEOを意識した構造で、検索エンジンからの集客を促進。レスポンシブデザインで、PC・スマートフォンどちらでも快適に操作できるようにしました。"
     },
     {
-    "title": "Arc Reactor",
-    "image": "/images/quarkreactor.webp",
-    "link": "https://github.com/denczo/arcreactor",
-    "tags": ["3D Printing", "Blender", "C", "Arduino"],
-    "text": "Using free software like Blender and Cura to model and 3D-print the famous Arc reactor"
+        "title": "GASとスプレッドシートでの情報管理アプリ開発",
+        "image": "/images/gas.webp",
+        "link": "https://qiita.com/YushiYamamoto/items/abcdef1234567890", 
+        "tags": ["Google Apps Script", "Google Sheets", "JavaScript", "API連携", "UI/UX設計"],
+        "text": "Google Apps Script（GAS）とスプレッドシートを活用して、情報管理アプリを開発しました。"
     }
 ]
