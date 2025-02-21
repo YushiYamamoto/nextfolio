@@ -17,12 +17,12 @@ https://www.hcaptcha.com
 - Please note: for deployment on vercel you have to enter the env variables in their dashboard
 ```
 HCAPTCHA_SECRET=
-NEXT_PUBLIC_HCAPTCHA_SITEKEY=
-NEXT_PUBLIC_SMTP_SERVER=
-NEXT_PUBLIC_SMTP_PORT=
-NEXT_PUBLIC_USER=
+HCAPTCHA_SITEKEY=
+SMTP_SERVER=
+SMTP_PORT=
+USER=
 SMTP_PWD=
-NEXT_PUBLIC_RECIPIENT=
+RECIPIENT=
 ```
 
 ## Roadmap

@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 
 export default function useContactForm() {
@@ -6,13 +7,15 @@ export default function useContactForm() {
     email: '',
     message: '',
   });
+  
+  // Web3FormsのAPIキーを直接設定（自分のAPIキーに置き換えてください）
+  const WEB3FORMS_API_KEY = 'a5f8fb4d-4755-4e09-93ed-8976e949bb1f';
 
-  const [success, setSuccess] = useState<boolean>(false);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
-  const [token, setToken] = useState<string | null>(null);
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+  function handleChange(e: React.ChangeEvent) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -21,27 +24,27 @@ export default function useContactForm() {
     setLoading(true);
     setError(null);
 
-    if (!token) {
-      setError('CAPTCHA not completed');
-      setLoading(false);
-      return;
-    }
-
     try {
-      const response = await fetch('/api/contact', {
+      // Web3Formsへの送信データを作成
+      const data = {
+        access_key: WEB3FORMS_API_KEY, // 直接設定したAPIキー
+        ...formData,
+      };
+
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ formData, token }),
+        body: JSON.stringify(data),
       });
 
       if (!response.ok) {
-        throw new Error(`Failed to submit: ${response.statusText}`);
+        throw new Error(`フォームの送信に失敗しました: ${response.statusText}`);
       }
 
       setSuccess(true);
       setFormData({ name: '', email: '', message: '' });
     } catch (error: any) {
-      setError(error.message || 'An error occurred');
+      setError(error.message || 'エラーが発生しました');
     } finally {
       setLoading(false);
     }
@@ -54,6 +57,5 @@ export default function useContactForm() {
     loading,
     handleChange,
     handleSubmit,
-    setToken,
   };
 }
