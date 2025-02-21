@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 export default function useContactForm() {
@@ -8,18 +7,19 @@ export default function useContactForm() {
     message: '',
   });
   
-  // Web3FormsのAPIキーを直接設定（自分のAPIキーに置き換えてください）
+  // Web3FormsのAPIキーを直接設定
   const WEB3FORMS_API_KEY = 'a5f8fb4d-4755-4e09-93ed-8976e949bb1f';
 
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
-  function handleChange(e: React.ChangeEvent) {
+  // イベントの型を具体的に指定
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
     setError(null);
@@ -27,7 +27,7 @@ export default function useContactForm() {
     try {
       // Web3Formsへの送信データを作成
       const data = {
-        access_key: WEB3FORMS_API_KEY, // 直接設定したAPIキー
+        access_key: WEB3FORMS_API_KEY,
         ...formData,
       };
 

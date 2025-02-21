@@ -18,7 +18,6 @@ export default function NotFound() {
   version="1.1"
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink"
-  xmlnsSketch="http://www.bohemiancoding.com/sketch/ns"
 >
   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
     <path
