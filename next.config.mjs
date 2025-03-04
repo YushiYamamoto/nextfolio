@@ -1,5 +1,3 @@
-import nextI18nConfig from './next-i18next.config.js';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // output: 'export', // Outputs a Single-Page Application (SPA).
@@ -8,7 +6,10 @@ const nextConfig = {
     unoptimized: true,
   },
   reactStrictMode: true,
-  ...nextI18nConfig.i18n,
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja', 'en'],
+  },
 }
 
 export default nextConfig
