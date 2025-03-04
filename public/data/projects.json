@@ -1,5 +1,12 @@
 [
     {
+        "title": "CMS開発",
+        "image": "https://rakuraku-site.prodouga.com/img/0.png",
+        "link": "https://rakuraku-site.prodouga.com/",
+        "tags": ["React.js", "TypeScript", "GitHub", "Tailwind CSS"],
+        "text": "「らくらくサイト」は、IT知識がなくても簡単にウェブサイトを管理・更新できるWebアプリケーションです。Googleスプレッドシートに情報を入力するだけでサイトの内容が自動更新されるため、専門知識が不要で手軽に運用できます。"
+    },
+    {
         "title": "企業サイト制作",
         "image": "/images/1.webp",
         "link": "https://www.prodouga.com",
