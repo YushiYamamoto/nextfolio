@@ -5,7 +5,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: '.next', // 出力ディレクトリを明示的に指定
+  distDir: 'nextfolio/.next', // Adjusted to match Netlify configuration
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja', 'en'],
