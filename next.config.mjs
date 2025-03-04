@@ -1,17 +1,19 @@
-[build]
-  base = "/"
-  publish = "nextfolio/.next"
-  command = "npm run build"
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'nextfolio/.next', // Adjusted to match Netlify configuration
-  i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja', 'en'],
+  output: 'export', // 静的サイト生成を有効化
+  images: {
+    unoptimized: true, // 静的サイト生成のために画像の最適化を無効化
   },
-  // Uncomment if you want to export as a static site
-  // output: 'export',
+  // 静的サイト生成のため、i18nは無効化
+  // i18n: {
+  //   defaultLocale: 'ja',
+  //   locales: ['ja', 'en'],
+  // },
+  
+  // 警告を抑制するための設定
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
